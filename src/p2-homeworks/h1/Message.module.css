@@ -1,0 +1,50 @@
+.message {
+    display: flex;
+    margin: 10px;
+    align-items: flex-end; /*свойство align-items выравнивает flex-элементы текущей flex-линии в перпендикулярном направлении.*/
+}
+
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 8px 8px 3px 8px;
+}
+
+
+.telling {
+    background-color: rgba(225, 0, 0, 0.3);
+    /*border: slateblue solid 1px;*/
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+   /* margin-bottom: 15px;*/
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(225, 0, 0, 0.3) 0);
+}
+
+.name {
+    color: darkslateblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text {
+    word-wrap: break-word; /*Свойство word-wrap указывает, переносить или нет длинные слова, которые не помещаются по ширине в заданную область.*/
+    min-width: 150px;
+    max-width: 300px;
+}
+
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    color: slateblue;
+    font-size: 16px;
+
+}
+

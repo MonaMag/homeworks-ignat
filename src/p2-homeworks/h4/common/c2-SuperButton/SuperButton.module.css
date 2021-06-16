@@ -1,0 +1,32 @@
+.default {
+    font-size: 14px;
+    min-height: 25px;
+    min-width: 75px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 3px;
+}
+
+
+.default:hover {
+    background-color: lightgray;
+}
+
+.red {
+    background: red;
+    padding: 5px;
+}
+
+.red:hover {
+    background-color: darkred;
+}
+
+.disabled {
+    font-size: 14px;
+    min-height: 25px;
+    min-width: 75px;
+    border-radius: 3px;
+    opacity: 0.5;
+    padding: 5px;
+    margin: 3px;
+}
