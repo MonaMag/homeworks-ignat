@@ -1,0 +1,46 @@
+.header {
+    position: fixed;
+    transition: all 0.3s;
+    left: -100%;
+
+
+}
+
+.header.active {
+    margin-left: 5px;
+    transition: all 0.3s;
+    position: relative;
+    left: 0;
+}
+
+.toggleBlock{
+    margin: 5px 0 0 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #adff2f;
+    border: 1px solid #333333;
+}
+
+.header a {
+    text-decoration: none;
+    margin-right: 9px;
+    padding: 0 8px;
+    color: #333333;
+    border: 1px solid #333333;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.header a:hover {
+    color: darkmagenta;
+    background-color: #ddd;
+    border-color: darkmagenta;
+}
+
+.header a.activeLink {
+    color: darkmagenta;
+    background-color: #ddd;
+    border-color: darkmagenta;
+}
