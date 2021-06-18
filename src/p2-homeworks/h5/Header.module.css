@@ -1,46 +1,92 @@
 .header {
-    position: fixed;
-    transition: all 0.3s;
-    left: -100%;
-
-
+    margin: 5px;
+}
+.menu{
+    width: 350px;
+    transition-duration: 500ms;
+    transform: translate(-360px);
+}
+.menu:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
 }
 
-.header.active {
-    margin-left: 5px;
-    transition: all 0.3s;
-    position: relative;
-    left: 0;
-}
-
-.toggleBlock{
-    margin: 5px 0 0 5px;
-    cursor: pointer;
+.toggleBlock {
+    margin: 5px 0 0px 15px;
+    width: 15px;
+    height: 15px;
+    background-color: goldenrod;
     display: inline-block;
-    width: 13px;
-    height: 13px;
-    background-color: #adff2f;
-    border: 1px solid #333333;
 }
 
-.header a {
+.menu a {
     text-decoration: none;
-    margin-right: 9px;
-    padding: 0 8px;
-    color: #333333;
-    border: 1px solid #333333;
+    font-weight: 900;
+    border: 1px solid goldenrod;
     border-radius: 3px;
-    transition: all 0.3s;
-}
+    padding: 2px;
+    margin: 7px;
 
-.header a:hover {
+}
+.menu a:hover {
     color: darkmagenta;
     background-color: #ddd;
     border-color: darkmagenta;
 }
 
-.header a.activeLink {
+.menu a.menuActive {
     color: darkmagenta;
     background-color: #ddd;
     border-color: darkmagenta;
 }
+
+
+
+/*
+.header {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100vh;
+}
+
+.menuList {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    height: 50%;
+    transition: 0.5s;
+    transform: translateX(10%); !* задаем, что это меню по умолчанию будет спрятано *!
+}
+.menuList:hover {
+    color: coral;
+}
+.menuActive {
+    transform: translateX(100%);
+}
+
+.menuList a {
+    text-decoration: none;
+    font-weight: 900;
+    border: 1px solid goldenrod;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.toggleBlock {
+    width: 25px;
+    height: 25px;
+    background-color: goldenrod;
+    position: absolute;
+    right: 60px;
+    top: 8px;
+}
+
+*/
