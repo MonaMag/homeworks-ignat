@@ -21,6 +21,12 @@ const messageData = [
         name: 'Sasha',
         message: 'Hi! Fine! And you?',
         time: '22:02',
+    },
+    {
+        avatar: 'https://img.itch.zone/aW1nLzIxOTMwNzgucG5n/original/EPZZJi.png',
+        name: 'Sasha',
+        message: 'Hi! Fine! And you?',
+        time: '22:02',
     }
 ]
 

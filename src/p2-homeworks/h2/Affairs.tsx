@@ -1,7 +1,7 @@
 import React from 'react'
 import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
-import s from './Affairs.module.css';
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 
 type AffairsPropsType = { // need to fix any
@@ -19,20 +19,33 @@ function Affairs(props: AffairsPropsType) {
         />
     ))
 
-    const setAll = () => {props.setFilter('all')}
-    const setHigh = () => {props.setFilter('high')}
-    const setMiddle = () => {props.setFilter('middle')}
-    const setLow = () => {props.setFilter('low')}
+    const setAll = () => {
+        props.setFilter('all')
+    }
+    const setHigh = () => {
+        props.setFilter('high')
+    }
+    const setMiddle = () => {
+        props.setFilter('middle')
+    }
+    const setLow = () => {
+        props.setFilter('low')
+    }
 
     return (
         <div>
 
             {mappedAffairs}
-
+            {/*
             <button className={s.filterBtn} onClick={setAll}>All</button>
             <button className={s.filterBtn} onClick={setHigh}>High</button>
             <button className={s.filterBtn} onClick={setMiddle}>Middle</button>
-            <button className={s.filterBtn} onClick={setLow}>Low</button>
+            <button className={s.filterBtn} onClick={setLow}>Low</button>*/}
+
+            <SuperButton style={{margin: "15px", width: "100px"}} onClick={setAll}>All</SuperButton>
+            <SuperButton style={{margin: "15px", width: "100px"}} onClick={setHigh}>High</SuperButton>
+            <SuperButton style={{margin: "15px", width: "100px"}} onClick={setMiddle}>Middle</SuperButton>
+            <SuperButton style={{margin: "15px", width: "100px"}} onClick={setLow}>Low</SuperButton>
         </div>
     )
 }

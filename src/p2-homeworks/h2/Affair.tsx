@@ -23,6 +23,8 @@ function Affair(props: AffairPropsType) {
             </div>
 
             <button className={s.btn} onClick={deleteCallback}>X</button>
+            {/*<SuperButton style={{width: '30px', marginTop: '10px'}} red className={s.btn} onClick={deleteCallback}>X</SuperButton>*/}
+
         </div>
     )
 }
