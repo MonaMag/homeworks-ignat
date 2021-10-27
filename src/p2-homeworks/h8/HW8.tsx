@@ -21,10 +21,11 @@ const initialPeople: UserType[] = [
 function HW8() {
     const [people, setPeople] = useState<UserType[]>(initialPeople) // need to fix any
 
-    // need to fix any
-    const finalPeople = people.map((p: any) => (
-        <div key={p._id}>
-            {p.name}, {p.age}
+
+    const finalPeople = people.map((p: UserType) => (
+        <div key={p._id} className={s.item}>
+            <span>{p.name}</span>
+            {p.age}
         </div>
     ))
 
@@ -36,7 +37,7 @@ function HW8() {
         <div className={s.wrapper}>
             <hr/>
 
-            <h3>homeworks 8</h3>homeworks 8
+            <h3>homework 8</h3>
             {finalPeople}
 <div className={s.sort}>
             <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>

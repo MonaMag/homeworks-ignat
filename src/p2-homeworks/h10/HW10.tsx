@@ -19,7 +19,7 @@ function HW10() {
 
     return (<div>
             <hr/>
-            homeworks 10
+            <h3>homework 10</h3>
 
             {/*should work (должно работать)*/}
             {loading

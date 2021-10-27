@@ -5,3 +5,11 @@ wrapper {
 .sort {
     margin: 10px 0px 10px
 }
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-right: 10px;
+    padding: 3px;
+}

@@ -50,7 +50,7 @@ function HW2() {
     return (
         <div>
             <hr/>
-            homeworks 2
+            <h3>homework 2</h3>
 
             {/*should work (должно работать)*/}
             <Affairs
@@ -58,7 +58,7 @@ function HW2() {
                 setFilter={setFilter}
                 deleteAffairCallback={deleteAffairCallback}
             />
-
+            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}
             <hr/>

@@ -1,5 +1,5 @@
 .header {
-    margin: 5px;
+    margin: 10px;
 }
 .menu{
     width: 350px;
@@ -12,7 +12,7 @@
 }
 
 .toggleBlock {
-    margin: 5px 0 0px 15px;
+    margin: 5px 0 0px 35px;
     width: 15px;
     height: 15px;
     background-color: goldenrod;
@@ -24,8 +24,8 @@
     font-weight: 900;
     border: 1px solid goldenrod;
     border-radius: 3px;
-    padding: 2px;
-    margin: 7px;
+    padding: 5px;
+    margin-right: 10px;
 
 }
 .menu a:hover {
@@ -41,52 +41,3 @@
 }
 
 
-
-/*
-.header {
-    position: relative;
-    overflow-x: hidden;
-}
-
-.menu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 30%;
-    height: 100vh;
-}
-
-.menuList {
-    display: flex;
-    justify-content: left;
-    align-items: baseline;
-    height: 50%;
-    transition: 0.5s;
-    transform: translateX(10%); !* задаем, что это меню по умолчанию будет спрятано *!
-}
-.menuList:hover {
-    color: coral;
-}
-.menuActive {
-    transform: translateX(100%);
-}
-
-.menuList a {
-    text-decoration: none;
-    font-weight: 900;
-    border: 1px solid goldenrod;
-    border-radius: 3px;
-    padding: 2px;
-    margin: 10px;
-}
-
-.toggleBlock {
-    width: 25px;
-    height: 25px;
-    background-color: goldenrod;
-    position: absolute;
-    right: 60px;
-    top: 8px;
-}
-
-*/
