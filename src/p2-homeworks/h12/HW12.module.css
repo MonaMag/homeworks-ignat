@@ -7,17 +7,28 @@
 }
 
 .red {
-    background: lightcoral;
+    background: yellowgreen;
 }
 
 .red-text {
-    color: aqua;
+    color: purple;
+    margin-left: 10px;
 }
 
 .some {
-    background: lightgreen;
+    background: lightsteelblue;
 }
 
 .some-text {
-    color: darkslateblue;
+    color: moccasin;
 }
+
+.myTheme {
+    background: yellow;
+}
+
+.myTheme-text {
+    color: black;
+    font-style: italic;
+}
+
