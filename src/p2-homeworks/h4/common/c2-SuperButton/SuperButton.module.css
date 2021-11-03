@@ -1,7 +1,7 @@
-.default {
+/*.default {
     font-size: 14px;
     height: 30px;
-    width: 80px;
+    width: 75px;
     border-radius: 1px;
     padding: 5px;
     margin: 3px;
@@ -29,5 +29,38 @@
     opacity: 0.5;
     padding: 5px;
     margin: 3px;
+}*/
+
+.default {
+    font-size: 14px;
+    height: 30px;
+    width: 75px;
+    border-radius: 4px;
+    padding: 3px;
+    margin: 3px 3px 3px 0;
 }
 
+.default:hover {
+    background-color: dimgray;
+    color: white;
+}
+
+.red {
+    background: red;
+    font-size: 14px;
+    height: 30px;
+    width: 75px;
+    border-radius: 4px;
+    padding: 3px;
+    margin: 3px 3px 3px 0;
+}
+
+.disabled {
+    font-size: 14px;
+    height: 30px;
+    width: 75px;
+    border-radius: 4px;
+    opacity: 0.5;
+    padding: 3px;
+    margin: 3px;
+}

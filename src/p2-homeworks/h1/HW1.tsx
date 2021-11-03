@@ -11,7 +11,7 @@ export type MessageDataType = {
 
 const messageData = [
     {
-        avatar: 'http://www.irimpanfamily.com/wp-content/uploads/2019/03/1246f50e9d.png',
+        avatar: 'https://www.svgrepo.com/show/51589/girl.svg',
         name: 'Mona',
         message: 'Hi! How are you?',
         time: '22:00',

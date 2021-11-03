@@ -49,6 +49,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     }
 
     const spanClassName = `${s.default} ${className}`
+    console.log(restProps)
 
     return (
         <>
@@ -58,16 +59,13 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                         autoFocus // пропсу с булевым значением не обязательно указывать true
                         onBlur={onBlurCallback}
                         onEnter={onEnterCallback}
-
-                        {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
-                    />
-                ) : (
+                        {...restProps}  /> )
+                        // отдаём инпуту остальные пропсы если они есть (value например там внутри)
+                 : (
                     <span
                         onDoubleClick={onDoubleClickCallBack}
                         className={spanClassName}
-
-                        {...restSpanProps}
-                    >
+                        {...restSpanProps}>
                         {/*если нет захардкодженного текста для спана, то значение инпута*/}
                         {children || restProps.value}
                     </span>

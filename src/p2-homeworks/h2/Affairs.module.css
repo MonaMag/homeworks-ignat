@@ -1,9 +1,9 @@
 .wrapper {
-    width: 600px;
+    width: 310px;
+    height: 50px;
     margin-bottom: 3px;
     display: grid;
     grid-template-columns: 1fr 1fr 40px;
-    /*border: 1px solid #333;*/
 }
 
 .item {

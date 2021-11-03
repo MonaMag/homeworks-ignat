@@ -1,4 +1,4 @@
-.superInput {
+/*.superInput {
     height: 25px;
     border-radius: 3px;
 }
@@ -13,4 +13,27 @@
     color: red;
     margin-bottom: 10px;
     height: 15px;
+}*/
+
+.superInput {
+    border-radius: 4px;
+    background: lightsteelblue;
+    margin: 5px 5px 5px 0;
+    height: 25px;
+}
+
+.errorInput {
+    border-radius: 4px;
+    height: 25px;
+    background: white;
+    margin: 5px 5px 5px 0;
+    border: 2px solid red;
+}
+
+.testSpanError {
+}
+
+
+.error {
+    color: red;
 }
