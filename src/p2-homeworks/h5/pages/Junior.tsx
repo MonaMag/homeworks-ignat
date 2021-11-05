@@ -10,7 +10,7 @@ import HW10 from "../../h10/HW10";
 import HW11 from "../../h11/HW11";
 import HW6 from "../../h6/HW6";
 import HW12 from "../../h12/HW12";
-
+import HW13 from "../../h13/HW13";
 
 function Junior() {
     return (
@@ -19,6 +19,7 @@ function Junior() {
             <HW2/>
             <HW3/>
             <HW4/>
+           {/* <HW5/>*/}
             <HW6/>
             <HW7/>
             <HW8/>
@@ -26,6 +27,7 @@ function Junior() {
             <HW10/>
             <HW11/>
             <HW12/>
+            <HW13/>
         </div>
     )
 }
