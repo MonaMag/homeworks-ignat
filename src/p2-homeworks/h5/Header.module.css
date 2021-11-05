@@ -1,43 +1,31 @@
-.header {
+.link {
+    text-decoration: none;
+    color: darkcyan;
     margin: 10px;
+    padding: 4px;
 }
-.menu{
-    width: 350px;
+
+.link:hover {
+    color: darkslategray;
+}
+
+.toggle {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    background: darkcyan;
+}
+
+.menu {
+    display: flex;
+    width: 400px;
     transition-duration: 500ms;
-    transform: translate(-360px);
+    transform: translateX(-350px);
 }
+
 .menu:hover {
     transition-duration: 500ms;
-    transform: translate(0);
-}
-
-.toggleBlock {
-    margin: 5px 0 0px 35px;
-    width: 15px;
-    height: 15px;
-    background-color: goldenrod;
-    display: inline-block;
-}
-
-.menu a {
-    text-decoration: none;
-    font-weight: 900;
-    border: 1px solid goldenrod;
-    border-radius: 3px;
-    padding: 5px;
-    margin-right: 10px;
-
-}
-.menu a:hover {
-    color: darkmagenta;
-    background-color: #ddd;
-    border-color: darkmagenta;
-}
-
-.menu a.menuActive {
-    color: darkmagenta;
-    background-color: #ddd;
-    border-color: darkmagenta;
+    transform: translateX(0px);
 }
 
 

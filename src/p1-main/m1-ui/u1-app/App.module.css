@@ -1,5 +1,7 @@
 .App {
-    margin: 35px;
-    padding: 40px;
-    border: black solid  2px;
+    max-width: 1366px;
+    min-width: 360px;
+    margin: auto;
+    background: white;
+    padding: 20px;
 }
